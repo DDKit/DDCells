@@ -1,16 +1,67 @@
 PODS:
+  - Alamofire (4.8.2)
   - DDCells (0.1.0)
+  - DDFeedback (1.0.7):
+    - RxDataSources (~> 4.0)
+  - DDPublic (0.1.5):
+    - DDFeedback (~> 1.0)
+    - Moya (~> 13.0)
+    - SwiftDate (~> 6.0)
+  - Differentiator (4.0.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SwiftDate (6.0.3)
 
 DEPENDENCIES:
   - DDCells (from `../`)
+  - DDPublic
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DDFeedback
+    - DDPublic
+    - Differentiator
+    - Moya
+    - Result
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SwiftDate
 
 EXTERNAL SOURCES:
   DDCells:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DDCells: 9dc673fdf6b998e5beb3eb436c89ab3d48f8e0ba
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  DDCells: 468c7ab8e78bae45b201c196b6d5570d80de3410
+  DDFeedback: 23f1f3cd6b58e6af5e2504c7a4a46f616d733fc4
+  DDPublic: df522ac7f88d7f76dc4e049bd7e675304f7290f6
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
 
-PODFILE CHECKSUM: d5601fbbb407be0fdfe95e5936227e30d8e110b2
+PODFILE CHECKSUM: 80ced41ee3c4dc946263a0e2f09709c3479d5fff
 
 COCOAPODS: 1.7.2
