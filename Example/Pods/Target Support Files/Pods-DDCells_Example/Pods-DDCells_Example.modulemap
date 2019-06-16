@@ -1,0 +1,6 @@
+framework module Pods_DDCells_Example {
+  umbrella header "Pods-DDCells_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

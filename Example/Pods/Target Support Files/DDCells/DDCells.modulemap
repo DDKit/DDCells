@@ -1,0 +1,6 @@
+framework module DDCells {
+  umbrella header "DDCells-umbrella.h"
+
+  export *
+  module * { export * }
+}
